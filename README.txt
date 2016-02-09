@@ -1,0 +1,9 @@
+README
+
+WHAT WORKS:
+
+PEOPLE I COLLABORATED WITH: Ben Francis, Elizabeth Bishop 
+
+HOURS SPENT:
+
+
