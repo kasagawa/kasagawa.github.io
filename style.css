@@ -29,6 +29,10 @@ img{
 	margin: auto;
 }
 
+.subtitle{
+	font-size: 22px;
+}
+
 p{
 	font-family: Georgia,serif;
 	font-size: 20px;
