@@ -11,6 +11,11 @@ body{
 	margin-right: 10%;
 }
 
-.center{
+h2{
+	font-family: Georgia,serif;
+        font-size: 24px;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
 	text-align:center;
 }
