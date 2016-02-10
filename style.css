@@ -1,6 +1,9 @@
 body{
-	background-image: url("wave.jpg"); 
-	background-repeat: repeat-y;
+	background: url("wave.jpg") no-repeat center center fixed
+	-webkit-background-size: cover;
+	-moz-backgroun-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
 	font-family: Georgia,serif;
 	font-size: 24px;
 	color: white;
