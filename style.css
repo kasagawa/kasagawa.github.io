@@ -1,5 +1,6 @@
 body{
 	background-image: url("wave.jpg"); 
+	background-repeat: repeat-x;
 	font-family: Georgia,serif;
 	font-size: 24px;
 	margin-left: 10%;
