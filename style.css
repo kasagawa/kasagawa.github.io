@@ -1,5 +1,5 @@
 body{
-	background: url("wave.jpg") no-repeat center center fixed
+	background: url("wave.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-backgroun-size: cover;
 	-o-background-size: cover;
