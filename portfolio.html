@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
+	<title>Portfolio</title>
+</head>
+    
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="http://kasagawa.github.io/portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+    
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">PROJECTS</h3>
+    
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <h4>Over the Mystic Mobile App</h4>
+      <a href="mystic.html"><img src="images/MysticRiver.jpg" class="img-responsive" style="width:40%" alt="Image" onclick="this.src='images/Character/Selected_Mage.png'; this.onmouseover = false; this.onmouseout = false;"></a>
+      <p>Currently developing an Android mobile app of a historical walking and biking tour around Medford. We started by talking to the Medford Historical Society and discussing their goals from the project. I mocked up wireframes on Balsamiq and made an architecture flowchart. I am currently developing the staggered list view of all the historical sites. </p>
+    </div>
+</div>      
+<div class="row">
+		<div class="col-sm-6 left">
+			<h4>Sunkissed Families</h4>
+        <p>Designed a website for Sunkissed Families, in association with the Center for Social and Emotional Health. Listened to the design requests of the founder and adjusted the site to fit the needs. Changed navigation bar to ensure that it was user friendly. </p>
+		</div>
+		<div class="col-sm-6">
+            <img src="images/Sunkissed1.png", width = 500px;>
+		</div>
+        <br>
+        <div class="col-sm-6 left">
+			<h4>ZooBreak Game</h4>
+                <p> Designed a 2D puzzle game and recorded process through UML diagrams and usability tests. Animated characters and created character controllers for the game. </p>
+		</div>    
+		<div class="col-sm-6">
+            <img src="images/zoobreak.png", width = 500px;>
+		</div>
+        <br>
+</div>    
+  <h3 class="w3-center">RESEARCH</h3>
+    <div class="col-sm-3"> 
+        <h4>DevTech</h4>
+        <img src="images/scratch.jpg" class="img-responsive" style="width:40%" alt="Image">
+        <p>I assisted with the analysis of a user report of an educational technology product. The survey was conducted by 189 parents and educators from 32 countries. I created graphs to represent the data, and categorized the qualitative findings to and noting down commonalities among the answers. </p>
+    </div>  
+    <br>
+    
+    <div class="col-sm-3"> 
+        <h4>Chief Service Officer Program</h4>
+        <img src="images/cos.png" class="img-responsive" style="width:40%" alt="Image">
+        <p>I analyzed the effectiveness of a three-year $450,000 grant program by summarizing the successes, challenges, and best practices of reports from three cities. </p>
+    </div>  
+    <br>
+    
+    <div class="col-sm-3"> 
+        <h4>Student Course Registration System </h4>
+        <img src="images/sis.png" class="img-responsive" style="width:40%" alt="Image">
+        <p> Designed, organized, moderated, and reported interviews and usability tests to review recent changes to the student registration system. Created a written report and made an oral presentation describing the findings. </p>
+    </div>  
+    <br>
+    
+    <div class="col-sm-6 left">
+        <h4>Needs Assessment of Adolescent Parents in Broadmoor, LA </h4>
+        <div class="col-sm-6">
+            <img src="images/NOLA.png", width =40%;>
+        </div>
+        <p> Interviewed agencies and led focus groups with adolescent parents to compile a report describing the available and desired resources to serve the needs of adolescent parents </p>
+    </div>
+    
+    
+    
+</div>    
+    
+
+
+</div>
+
+    
+</body>
+
+</html>

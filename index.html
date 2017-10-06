@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Anna Kasagawa</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -8,9 +8,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 
-<style>
-
-</style>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -19,10 +16,10 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -31,7 +28,7 @@
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="http://kasagawa.github.io/portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -51,16 +48,16 @@
   <p> I'm a senior at Tufts University studying a unique combination of Computer Science &amp; Child Study and Human Development. I am passionate about understanding how the user interacts with a product, thus have pursued a study in both the product and the user. </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="me.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+      <img src="images/me.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p> My international background has made me attentive to cultural differneces and a desire to better cater things to different audiences. Now equipped with understanding of technological tools, I'm driven to cater products to the best fit to as many unique users as possible. I have a diverse background of working at a national nonprofit organization that works with mayors and city government across the US, conducting research about at-risk populations in New Orleans, and compiling reports about the usability of technological tools used at Tufts. I am eager to learn about more UX research tools and skills to be able to make a postive impact on users. </p>
+      <p> My international background has made me attentive to cultural differneces and a desire to better cater things to different audiences. Now equipped with an understanding of technological tools, I'm driven to cater products to the best fit to as many unique users as possible. I have a diverse background of working at a national nonprofit organization that works with mayors and city government across the US, conducting research assessments about at-risk populations in New Orleans, and compiling reports about the usability of technological tools used at Tufts. I am eager to learn about more UX research tools and skills to be able to make a postive impact on users. </p>
     </div>
   </div>
 </div>
-
+<!--
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">14+</span><br>
@@ -79,7 +76,7 @@
     Meetings
   </div>
 </div>
-
+-->
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
@@ -87,47 +84,6 @@
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Over the Mystic">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Surveying the Needs of Adolescent Parents">
-        /* <object width="400" height="400" data=<"Surveying the Needs of Adolescent Parents in the Broadmoor and Surrounding Areas">" </object> */
-
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Low-Income Neighborhooods Map">
-        <a href= "https://kasagawa.carto.com/builder/c92ae38e-6d7a-11e7-8bd9-0e98b61680bf/embed"> </a>
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sunkissed Families">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ZooBreak Game">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Migration Game">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Are There Fried Eggs?">
-    </div>
-  </div>
-</div>
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -148,14 +104,13 @@
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-    <p class="w3-center"><i class="fa fa-coffee"> </i> I'd love to talk further about career opportunities. </p>
+    <p class="w3-center">
+        <a href="https://github.com/kasagawa"> <i class="fa fa-github w5-hover-opacity"></i></a>     I'd love to talk further about career opportunities     <a href="https://www.linkedin.com/in/kasagawa/"> <i class="fa fa-linkedin w3-hover-opacity"></i> </a> </p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Somerville, MA<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> https://github.com/kasagawa <br>
-        <a href="https://www.linkedin.com/in/kasagawa/"> <i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+      <div class="w3-large w3-margin-bottom">          
+
       </div>
     </div>
   </div>
@@ -175,7 +130,6 @@
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
  
-<!-- Add Google Maps -->
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -206,11 +160,6 @@ function toggleFunction() {
     }
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>
